@@ -17,6 +17,7 @@ public class GreetingController {
     @GetMapping("thyme")
     //TODO deploy to test branch
     //remove thymeleaf
+    //testing new branch
     public String thyme(Map<String, Object> model){
         model.put("message", "Hello thymeleaf");
         return "thyme";
